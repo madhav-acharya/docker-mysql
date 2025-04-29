@@ -37,3 +37,19 @@ and run it using the command
 ```bash
 docker run -p 8080:80 -p 3306:3306 madhav351/mysql-docker
 ```
+after the container will start running access the phpmyadmin through if you have map the port to 8080:80
+```bash
+http://localhost:8080/phpmyadmin
+```
+and the default username is
+```bash
+root
+```
+and password is
+```bash
+password
+```
+now enjoy
+
+
+
