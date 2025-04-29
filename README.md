@@ -35,5 +35,5 @@ docker pull madhav351/mysql-docker
 ```
 and run it using the command
 ```bash
-docker run -d --name my-app -p 8080:80 -p 3306:3306 madhav351/mysql-docker
+docker run -p 8080:80 -p 3306:3306 madhav351/mysql-docker
 ```
